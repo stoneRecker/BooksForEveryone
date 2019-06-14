@@ -1,0 +1,49 @@
+body{
+	background: url(back.jpg);
+	background-repeat: no-repeat;
+}
+#home{
+float: left;
+padding-left: 25px;
+margin-top: 0px;
+font-family: "Georgia";
+}
+#about{
+	float: right;
+	padding-right: 25px;
+	margin-top: 0px;
+	font-family: "Georgia";
+}
+h3{
+	padding-top: 16px;
+	text-align: center;
+	font-size: 30px;
+}
+div{
+	text-align: center;
+}
+a,a:visited {
+	text-decoration: none;
+   color: black;
+}
+input { 
+  margin: 20px auto;
+  margin-top: 170px;
+  width: 50%;
+  /*max-width: 150px;*/
+  height: 30px; 
+  text-align: left; 
+  border-radius: 10px;
+}
+#home:hover{
+	font-style: italic;
+}
+#about:hover{
+	font-style: italic;
+}
+button{
+	width: 10%;
+	border-style: solid;
+	border-color: lightgrey;
+	border-radius: 10px;
+}
